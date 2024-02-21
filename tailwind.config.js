@@ -10,9 +10,11 @@ module.exports = {
   theme  : {
     extend: {
       colors: {
+        accent   : '#D1070E',
+        backdrop : '#BA5831',
         light    : '#F5F4EE',
         primary  : '#B0070D',
-        secondary: '#326259'
+        secondary: '#701D20'
       },
       fontFamily: {
         gantari: [ 'var(--font-gantari)' ],
