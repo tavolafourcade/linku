@@ -1,5 +1,4 @@
 import Image from 'next/image'
-
 import homeImage from '../assets/images/home_image.jpg'
 import logo from '../assets/images/logo.png'
 import LanguagePicker from '../components/LanguagePicker'
