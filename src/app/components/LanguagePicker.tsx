@@ -23,13 +23,13 @@ const LanguagePicker: React.FC = () => {
   }
 
   return (
-    <div className='flex'>
+    <div className='flex gap-2'>
       {languages.map((language) => (
-        <div className={` flex border-white rounded-full text-white ${locale === language.code ? 'bg-white' : ''}`} key={language.code}>
+        <div className={`flex border-white rounded-full text-white ${locale === language.code ? 'bg-white' : ''}`} key={language.code}>
           {locale === language.code ? (
-            <button className='w-10 h-10 btn btn-primary p-2 text-primary'>{language.name}</button>
+            <button className='w-10 h-10 btn btn-primary p-2 text-primary border-white'>{language.name}</button>
           ) : (
-            <button className='w-10 h-10 btn btn-outline-primary p-2 border-white' onClick={() => handleChange(language)}>
+            <button className='w-10 h-10 btn btn-outline-primary p-2 border rounded-full border-white' onClick={() => handleChange(language)}>
               {language.name}
             </button>
           )}
@@ -40,3 +40,19 @@ const LanguagePicker: React.FC = () => {
 }
 
 export default LanguagePicker
+
+// return (
+//   <div className='flex gap-2'>
+//     {languages.map((language) => (
+//       <div className={`flex ${locale === language.code ? 'bg-white' : ''}`} key={language.code}>
+//         {locale === language.code ? (
+//           <button className='w-10 h-10 btn btn-primary p-2 text-primary border border-white rounded-full'>{language.name}</button>
+//         ) : (
+//           <button className='w-10 h-10 btn btn-outline-primary p-2 border-white border rounded-full' onClick={() => handleChange(language)}>
+//             {language.name}
+//           </button>
+//         )}
+//       </div>
+//     ))}
+//   </div>
+// )
