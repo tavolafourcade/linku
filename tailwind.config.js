@@ -12,13 +12,13 @@ module.exports = {
       colors: {
         accent   : '#D1070E',
         backdrop : '#BA5831',
+        footer   : '#0C2749',
         light    : '#F5F4EE',
         primary  : '#B0070D',
         secondary: '#701D20'
       },
       fontFamily: {
-        gantari: [ 'var(--font-gantari)' ],
-        onest  : [ 'var(--font-onest)' ]
+        onest: [ 'var(--font-onest)' ]
       }
     }
   }
