@@ -4,9 +4,9 @@ const SiteMotivational = () => {
   const t = useTranslations()
 
   return (
-    <section className='bg-backdrop flex justify-center items-center' id='motivation'>
+    <section className='font-onest bg-backdrop flex justify-center items-center px-20 lg:px-0' id='motivation'>
       <div className='max-w-[650px] py-[140px]'>
-        <p className='text-5xl leading-15 font-light text-white text-center'>{t('phrase_3')}</p>
+        <p className='text-xl lg:text-5xl leading-6 font-light text-white text-center'>{t('phrase_3')}</p>
       </div>
     </section>
   )
