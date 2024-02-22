@@ -30,7 +30,6 @@
 		"next/core-web-vitals",
     "react-app/jest",
     "plugin:react/jsx-runtime",
-    "plugin:valtio/recommended",
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
